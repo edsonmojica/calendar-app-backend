@@ -35,11 +35,6 @@ const crearEvento = async (req, res = response) => {
             msg: 'Por favor hable con el administrador',
         })
     }
-
-    res.json({
-        ok: true,
-        msg: 'crearEvento'
-    });
 }
 
 const actualizarEvento = async (req, res = response) => {
